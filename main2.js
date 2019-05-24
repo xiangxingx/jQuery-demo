@@ -3,7 +3,7 @@ window.jQuery = function (nodeOrSelector) { // 直接生成一个对象，则不
   let node
   if (typeof nodeOrSelector === 'string') {
     node = document.querySelector(nodeOrSelector)
-    console.log(node)
+    //console.log(node)
   } else (
     node = nodeOrSelector
   )

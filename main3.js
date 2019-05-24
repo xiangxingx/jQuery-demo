@@ -41,12 +41,12 @@ window.jQuery = function (nodeOrSelector) {
       }
       return texts
     } else {
-      let texts = []
       for (let i = 0; i < nodes.length; i++) {
         nodes[i].textContent = text
       }
     }
   }
+
   return nodes
 }
 
@@ -54,4 +54,4 @@ var x = jQuery('ul > li')
 x.addClass(['red'])
 console.log(x)
 
-console.log(x.text('x'))
+console.log(x.text('xxx'))
